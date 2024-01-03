@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    position: fixed; 
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../public/images/background.jpg);
+    z-index: -1;
+}
+
+.gif-container{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.gif{
+    height: 200px;
+    width: 200px;
+}
